@@ -1,0 +1,396 @@
+body {
+  color: var(--bs-white);
+  background: black;
+}
+
+.green-transparent-btn {
+  background: rgba(151, 191, 3, 0.3);
+  outline: 2px dashed #AADE00;
+  outline-offset: -8px;
+  color: rgba(170, 222, 0, 1);
+  border: 1px solid #AADE00;
+  border-radius: 0;
+  font-family: 'Cabin';
+  font-size: 16px;
+  font-weight: 600;
+  width: 210px;
+  height: 50px;
+}
+
+.green-transparent-btn:hover {
+  background: transparent;
+  color: rgba(170, 222, 0, 1);
+  outline: none;
+  transition-duration: 300ms;
+}
+
+@media (max-width: 360px) {
+  .green-transparent-btn {
+    font-size: 12px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+  .green-transparent-btn {
+    font-size: 16px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .green-transparent-btn {
+    font-size: 18px;
+  }
+}
+
+.transparent-btn {
+  color: rgba(170, 222, 0, 1);
+  border: 1px solid #AADE00;
+  border-radius: 0;
+  font-family: 'Cabin';
+  font-size: 12px;
+  font-weight: 600;
+  width: 130px;
+  height: 35px;
+}
+
+.transparent-btn:hover {
+  background: rgba(151, 191, 3, 0.3);
+  color: rgba(170, 222, 0, 1);
+  transition-duration: 200ms;
+}
+
+.linkedin-btn {
+  background: #006097;
+  color: var(--bs-white);
+}
+
+.footer-at-bottom {
+  flex: 1 1 auto;
+}
+
+.hero-block-title-style {
+  font-family: 'Alegreya';
+  font-size: 52px;
+  font-weight: 700;
+  color: var(--bs-white);
+}
+
+@media (max-width: 360px) {
+  .hero-block-title-style {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+  .hero-block-title-style {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero-block-title-style {
+    font-size: 36px;
+  }
+}
+
+.hero-block-text-style {
+  font-family: 'Cabin';
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--bs-white);
+}
+
+@media (max-width: 360px) {
+  .hero-block-text-style {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+  .hero-block-text-style {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero-block-text-style {
+    font-size: 20px;
+  }
+}
+
+.block-title {
+  font-family: 'Alegreya';
+  font-size: 54px;
+  font-weight: 500;
+}
+
+@media (max-width: 360px) {
+  .block-title {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+  .block-title {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .block-title {
+    font-size: 48px;
+  }
+}
+
+.block-text {
+  font-family: 'Cabin';
+  font-size: 26px;
+  font-weight: 500;
+}
+
+@media (max-width: 360px) {
+  .block-text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 576px) {
+  .block-text {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .block-text {
+    font-size: 20px;
+  }
+}
+
+.custom-game {
+  background: url("../../assets/img/Bg%20Image%201.jpg") center / cover no-repeat;
+  height: 100vh;
+}
+
+.custom-game .custom-game__bg2 {
+  background: rgba(0, 0, 0, 0.7);
+  color: var(--bs-white);
+  height: inherit;
+}
+
+.custom-game .custom-game__bg2 .container {
+  height: inherit;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar__img {
+  margin-left: 20px;
+}
+
+.menu-btn {
+  background: transparent;
+  border-style: solid;
+  border-color: var(--bs-white);
+  border-radius: 0px;
+  width: 130px;
+  height: 45px;
+  font-family: Cabin, sans-serif;
+  font-size: 16px;
+  color: var(--bs-white);
+}
+
+.scroll {
+  text-decoration: none;
+  color: var(--bs-white);
+  font-family: 'Cabin';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 360px) {
+  .col-xs-7.build__text {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+}
+
+.build__switchers div {
+  height: 100%;
+}
+
+.switchers__arrow {
+  width: 50px;
+  height: 50px;
+  background: rgba(151, 191, 3, 0.3);
+  border-radius: 0;
+  border-color: rgba(170, 222, 0, 1);
+}
+
+.switchers__arrow:hover {
+  background: rgba(170, 222, 0, 1);
+  transition-duration: 20ms;
+}
+
+.right img {
+  transform: rotate(180deg);
+}
+
+.build__games img {
+  transition-duration: 400ms;
+}
+
+.build__games img:hover {
+  opacity: 0.5;
+  transform: translateY(-50px);
+  transition-duration: 400ms;
+}
+
+.about-game-boom {
+  background: url("../../assets/img/Bg%20Image%202.jpg") no-repeat;
+  background-size: cover;
+  height: 665px;
+}
+
+.about-game-boom__bg2 {
+  background: linear-gradient(0deg, black 0%, rgba(0,0,0,0) 17%), linear-gradient(black 0%, rgba(0,0,0,0) 17%);
+  height: inherit;
+}
+
+.about-game-boom .container {
+  height: inherit;
+}
+
+.about-game-boom__body {
+  height: inherit;
+}
+
+.latest-news {
+  height: 100%;
+}
+
+.latest-news__text {
+  font-family: 'Cabin';
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.latest-news__cards {
+  font-family: 'Cabin';
+}
+
+.card {
+  background: rgba(37, 38, 40, 1);
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.green-line {
+  border: 1px solid #AADE00;
+}
+
+.green-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #aade00;
+}
+
+.card__btn {
+  width: 130px;
+  height: 35px;
+}
+
+.get-in-touch__bg2 {
+  background: linear-gradient(0deg, black 0%, rgba(0,0,0,0) 17%), linear-gradient(black 0%, rgba(0,0,0,0) 17%);
+}
+
+.form-control {
+  background: transparent;
+  font-family: 'Cabin';
+  font-weight: 600;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-color: white;
+  border-left-style: none;
+  border-radius: 0;
+  padding: 0 0 15px 0;
+}
+
+.transparent-btn.get-in-touch__form-upload {
+  width: 177px;
+  height: 45px;
+}
+
+.upload-text {
+  font-family: 'Cabin';
+  font-weight: 500;
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .upload-text {
+    font-size: 12px;
+  }
+}
+
+.green-transparent-btn.get-in-touch__form-btn {
+  width: 210px;
+  height: 54px;
+  font-size: 20px;
+}
+
+footer a {
+  font-family: 'Cabin';
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #C2C2C2;
+}
+
+footer a:hover {
+  color: var(--bs-white);
+  transition-duration: 200ms;
+}
+
+.footer img:hover {
+  color: var(--bs-white);
+  transition-duration: 200ms;
+}
+
+@media (max-width: 576px) {
+  footer a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .stay-connected__row {
+    justify-content: center;
+  }
+}
+
+.copyright {
+  font-family: 'Cabin';
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+@media (min-width: 576px) {
+  .copyright {
+    font-size: 12px;
+  }
+}
+
